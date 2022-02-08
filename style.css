@@ -1,0 +1,78 @@
+h1 {
+  font-size: 500px;
+}
+
+.background-image {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.7;
+  position: absolute;
+  z-index: -1;
+  border: 0 0 0 30%;
+  width: 100%;
+  filter: blur(10px) grayscale(100%);
+}
+
+.header {
+  font-family: "Comforter", cursive;
+  color: #ff7400;
+  font-size: 100px;
+  text-align: center;
+  padding: 200px;
+}
+
+.img-responsive {
+  width: 300px;
+  padding: 20px;
+}
+
+.card-block {
+  margin: 50px 0 50px 0;
+  padding: 20px;
+  border-radius: 10px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+  background-color: #c5691d;
+}
+
+.colored-placeholder:focus {
+  background-color: #ff7400 !important;
+  border-color: #ff7400;
+}
+
+.css-button-retro--black {
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 1px solid #000;
+  color: #000;
+  background: transparent;
+}
+.css-button-retro--black:hover:after {
+  top: 0;
+  left: 0;
+}
+.css-button-retro--black:after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+  background-color: #343a40;
+}
+
+.button-placement {
+  margin-top: 20px;
+  border-radius: 30px;
+}
